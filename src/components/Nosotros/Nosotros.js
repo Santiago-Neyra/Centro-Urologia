@@ -1,8 +1,12 @@
 import React from "react";
+import { TitulosSecciones } from "../TitulosSecciones/TitulosSecciones";
 
-export const Nosotros=()=>
+export const Nosotros=( )=>
 {
     return(
-    <p>hola</p>
+    <>
+    <TitulosSecciones tittle="Nosotros" />
+    <p></p>
+    </>
     )
 };
