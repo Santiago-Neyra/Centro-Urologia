@@ -1,21 +1,19 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
-import {NavBar} from "./components/NavBar/NavBar.jsx"
-import {Nosotros} from "./components/Nosotros/Nosotros.js"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { NavBar } from "./components/NavBar/NavBar.jsx"
+import { Nosotros } from "./components/Nosotros/Nosotros.jsx"
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar></NavBar>
-        <Link to="/Nosotros">A</Link>
-          <Routes>
-            <Route path="/Nosotros" element={<Nosotros/>}></Route>
-          </Routes>
-
+        <Routes>
+          <Route path="/Nosotros" element={<Nosotros />}></Route>
+        </Routes>
       </BrowserRouter>
-      
+
     </div>
   );
 }
