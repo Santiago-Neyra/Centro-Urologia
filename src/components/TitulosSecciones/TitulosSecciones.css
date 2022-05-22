@@ -1,0 +1,17 @@
+.contenedor-titulo-secciones{
+    background-color: #45833A;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contenedor-titulo-secciones h4 {
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+}
