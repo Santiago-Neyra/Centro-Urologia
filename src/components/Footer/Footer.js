@@ -9,10 +9,10 @@ export const Footer=()=>{
                 <div className="col-lg-3 justify-content-center align-items-center"><img src="https://i.postimg.cc/GhRrq0sD/a0831456-7d61-4379-b9b5-d6bb43160054-1.png"></img></div>
                 <div className="col-lg-6 d-flex align-items-center justify-content-center cont-dos-footer">
                     <Link to="/">Inicio</Link>
-                    <Link to="/">Nosotros</Link>
-                    <Link to="/">Prácticas</Link>
-                    <Link to="/">Tecnologías</Link>
-                    <Link to="/">Contacto</Link>
+                    <Link to="/Nosotros">Nosotros</Link>
+                    <Link to="/Practicas">Prácticas</Link>
+                    <Link to="/Tecnologias">Tecnologías</Link>
+                    <Link to="/Contacto">Contacto</Link>
                 </div>    
                 <div className="col-lg-3 d-flex justify-content-center align-items-center"><a href="#"><  BsInstagram style={{color:"black"}} > </BsInstagram></a></div>
             </div>

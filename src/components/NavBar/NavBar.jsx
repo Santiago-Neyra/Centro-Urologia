@@ -6,9 +6,9 @@ export const NavBar = () => {
         <>
         <ul>
             <Link to={"/"}>inicio</Link>
-            <Link to={"/nosotros"}>Nosotros</Link>
-            <Link to={"/practicas"}>Practicas</Link>
-            <Link to={"/tecnologia"}>Tecnologia</Link>
+            <Link to={"/Nosotros"}>Nosotros</Link>
+            <Link to={"/Practicas"}>Practicas</Link>
+            <Link to={"/Tecnologias"}>Tecnologia</Link>
             <Link to={"/Contacto"}>Contacto</Link>
         </ul>
 
