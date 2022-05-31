@@ -5,6 +5,7 @@ import {NavBar} from "./components/NavBar/NavBar.jsx"
 import {Nosotros} from "./components/Nosotros/Nosotros.js"
 import { Footer } from './components/Footer/Footer';
 import { Contacto } from './components/Contacto/Contacto';
+import { Tecnologias } from './components/Tecnologias/Tecnnologias';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/Nosotros" element={<Nosotros/>}></Route>
             <Route path="/Contacto" element={<Contacto/>}></Route>
+            <Route path="/Tecnologias" element={<Tecnologias/>}></Route>
           </Routes>
         <Footer/>
       </BrowserRouter>
