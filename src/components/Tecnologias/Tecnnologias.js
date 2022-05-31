@@ -44,7 +44,9 @@ export const Tecnologias=()=>{
                 {items.map(e=>{
                     return(
                     <div className="container-item">
-                            <p><span><img className="img-item" src="https://i.postimg.cc/cJDKQs1G/imagen-2022-05-31-191014495.png" alt="" /></span>{e.item}</p>
+                        <div className="d-flex">
+                            <span className="span-item"><img className="img-item" src="https://i.postimg.cc/cJDKQs1G/imagen-2022-05-31-191014495.png" alt="" /></span><p className="text-item">{e.item}</p>
+                        </div>
                     </div>
                     )
                 })}
