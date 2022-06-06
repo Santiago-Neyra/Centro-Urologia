@@ -1,0 +1,26 @@
+.carousel-control-prev-icon {
+    background-image: url("https://cdn-icons.flaticon.com/png/512/2989/premium/2989985.png?token=exp=1654464298~hmac=b5ad77a7fb8bca4601934cc57ce4138d");
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.carousel-control-next-icon {
+    background-image: url('https://cdn-icons.flaticon.com/png/512/2989/premium/2989988.png?token=exp=1654464475~hmac=494dedf0a46616e44818d014e857d542');
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.carousel-indicators button {
+    border-radius: 50%;
+    margin-top: 0;
+    width: 23px !important;
+    height: 23px !important;
+    opacity: 1 !important;
+    margin: 0 .4rem !important;
+}
+.carousel-indicators .active {
+    background-color: #45833a;
+    opacity: 1;
+}

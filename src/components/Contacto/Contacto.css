@@ -1,0 +1,69 @@
+.container-pic{
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-pic img{
+    border-radius: 10px;
+   width: 100%;
+}
+.contacto-container{
+    width: 80%;
+    margin: auto;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.input-group-text{
+    background-color: #45833A;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.2em;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton-consulta{
+    background-color: #45833A;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 6px 8px 6px;
+}
+.boton-consulta:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.formulario{
+    width: 90%;
+    margin: auto;
+    max-width: 100%;
+}
+.input-group{
+    margin-bottom: 1.5rem !important;
+}
+.tittle-form{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.texto-ley{
+    font-size: 0.8rem;
+    color: rgb(121, 121, 121);
+    margin-bottom: 20px;
+}
+.container-ley{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.input-form{
+    border: #45833ab1 1px solid;
+}

@@ -1,0 +1,28 @@
+.texto-litro{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+.t-beneficios{
+    text-align: left;
+}
+.img-item{
+    width: 20px;
+    margin-right: 5px;
+}
+.container-item{
+    display: flex;
+}
+.video{
+    margin-top: 30px;
+    width: 50%;
+    min-width: 250px;
+}
+.text-item{
+    text-align: left;
+    margin-bottom: 0;
+}
+.span-item{
+    display: flex;
+    align-items: baseline;
+}

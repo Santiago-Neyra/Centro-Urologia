@@ -1,9 +1,10 @@
-import React from "react";
+
+import "../TitulosSecciones/TitulosSecciones.css"
 
 export const TitulosSecciones=({tittle})=>{
     return(
-        <div>
-            <h4> {tittle} </h4>
+        <div className="contenedor-titulo-secciones">
+            <h4 style={{transition:'300ms all'}}> {tittle} </h4>
         </div>
     )
 }
