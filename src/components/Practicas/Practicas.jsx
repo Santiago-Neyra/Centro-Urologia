@@ -1,21 +1,14 @@
 import { Row } from "react-bootstrap"
+import { dataPracticas } from "../helpers/helpers"
+import { TitulosSecciones } from "../TitulosSecciones/TitulosSecciones"
 import { CardsPractic } from "./Cards/CardsPractic"
 
 
-const dataPracts = [
-    {
-        name: 'nombrePractica',
-        thumbnail: 'img.jpg'
-    },
-    {
-        name: 'nombrePractica',
-        thumbnail: 'img.jpg'
-    }
-]
 
 export const Practicas = () => {
     return (
         <>
+            <TitulosSecciones tittle={'Practicas realizadas'} />
             <Row
                 xs={1}
                 md={2}
@@ -25,7 +18,7 @@ export const Practicas = () => {
                     justifyContent: 'center'
                 }}>
 
-                <CardsPractic data={dataPracts} />
+                <CardsPractic data={dataPracticas} />
             </Row>
         </>
     )

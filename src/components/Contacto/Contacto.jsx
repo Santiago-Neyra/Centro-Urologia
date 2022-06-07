@@ -1,8 +1,10 @@
+import { TitulosSecciones } from "../TitulosSecciones/TitulosSecciones"
 import "./Contacto.css"
 
 export const Contacto = () => {
     return (
         <>
+        <TitulosSecciones tittle={'Contacto'}/>
             <div className="contacto-container">
                 <div className="row-contacto row">
                     <div className="d-none d-xl-flex col-lg-6 container-pic">

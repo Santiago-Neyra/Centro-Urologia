@@ -63,3 +63,26 @@ li::marker{
 .downBar ul li a:hover {
     color: rgb(182, 173, 173);
 }
+.navbar-nav {
+    margin: 0;
+}
+.navbar-toggler {
+    background-color: #45833a;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+}
+.container-fluid {
+    justify-content: center !important;
+}
+
+@media screen and (max-width: 992px) {
+    .downBar {
+        order: 1 !important;
+    }
+    .navbar {
+        order: 2;
+    }
+    
+}

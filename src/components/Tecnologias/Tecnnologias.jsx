@@ -1,10 +1,12 @@
 import "../Tecnologias/Tecnologias.css"
+import { TitulosSecciones } from "../TitulosSecciones/TitulosSecciones";
 import video from './video/video.mp4';
 
 export const Tecnologias = ({ items }) => {
 
     return (
         <>
+            <TitulosSecciones tittle={'Tecnologias'}/>
             <div className="container tecnologias-container">
                 <p className="texto-litro">La litotricia extracorpórea es un tratamiento no invasivo que consiste en la fragmentación de la litiasis, a través de la aplicación de ondas de choque generadas externamente, decir fuera del cuerpo. El impacto de esta energía en el calculo, permite que este se desintegre</p>
                 <h5 className="t-beneficios">Beneficios:</h5>

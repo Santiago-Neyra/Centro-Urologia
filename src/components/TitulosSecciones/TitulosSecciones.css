@@ -14,4 +14,15 @@
     font-weight: 700;
     line-height: 40px;
     color: white;
+    transition: 300ms ease-in-out;
+    animation: tit .2s linear;
+}
+
+@keyframes tit {
+    0%{
+        transform: translate(5%);
+    }
+    100% {
+        transform: translate(0);
+    }
 }

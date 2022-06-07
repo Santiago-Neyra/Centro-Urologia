@@ -1,4 +1,5 @@
 import { Button, Card, Col } from "react-bootstrap"
+import { Link } from "react-router-dom"
 
 
 export const CardsPractic = ({ data }) => {
@@ -14,24 +15,26 @@ export const CardsPractic = ({ data }) => {
                         <Card.Title
                             style={{ fontWeight: 'bold' }}
                         >
-                            {`${info.name}`}
+                            {`${info.title}`}
                         </Card.Title>
 
                         <Card.Img
                             variant="top"
-                            src={info.thumbnail ? info.thumbnail : ''} />
+                            src={info.img ? info.img : ''} />
                         <Card.Body>
-                            <Button style={{
+                            <Link to={`/practicas/${info.title}`}><Button style={{
                                 padding: '.7rem 1rem',
                                 fontSize: '1.2rem',
                                 backgroundColor: '#45833a',
                                 border: 'none',
                                 width: '180px'
-                            }}>Leer más</Button>
+                            }}>Leer mas</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
                 </Col>
-            ))}
+            ))
+            }
         </>
     )
 }

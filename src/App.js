@@ -6,10 +6,12 @@ import { Footer } from './components/Footer/Footer';
 import { Contacto } from './components/Contacto/Contacto';
 import { Tecnologias } from './components/Tecnologias/Tecnnologias';
 import { Carrousel } from './components/Carrousel/Carrousel';
-import { dataBanner, itemsTecnologys } from './components/helpers/helpers';
+import { dataBanner, dataPracticas, itemsTecnologys } from './components/helpers/helpers';
 import { Practicas } from './components/Practicas/Practicas';
+import { DetailPracticas } from './components/Practicas/DetailPracticas/DetailPracticas';
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
@@ -18,6 +20,7 @@ function App() {
           <Route path='/' element={<Carrousel data={dataBanner} />}></Route>
           <Route path="/nosotros" element={<Nosotros />}></Route>
           <Route path="/practicas" element={<Practicas />}></Route>
+          <Route path="/practicas/:namePractica" element={<DetailPracticas data={dataPracticas}/>}></Route>
           <Route path="/contacto" element={<Contacto />}></Route>
           <Route path="/tecnologias" element={<Tecnologias items={itemsTecnologys} />}></Route>
         </Routes>
