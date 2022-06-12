@@ -69,11 +69,11 @@ export const NavBar = () => {
                         transition:'200ms ease-in-out'
                     }}>
                     <ul style={{ flexWrap: 'wrap' }}>
-                        <li><Link to="/" >inicio</Link></li>
-                        <li><Link to="/nosotros" >nosotros</Link></li>
-                        <li><Link to="/practicas" >practicas</Link></li>
-                        <li><Link to="/tecnologias" >tecnologias</Link></li>
-                        <li><Link to="/contacto" >contacto</Link></li>
+                        <li><Link to="/" >Inicio</Link></li>
+                        <li><Link to="/nosotros" >Nosotros</Link></li>
+                        <li><Link to="/practicas" >Prácticas</Link></li>
+                        <li><Link to="/tecnologias" >Tecnologías</Link></li>
+                        <li><Link to="/contacto" >Contacto</Link></li>
                     </ul>
                 </div>
 

@@ -13,7 +13,7 @@ export const Nosotros = () => {
             <TitulosSecciones tittle={'Sobre nosotros'}/>
             <div style={{
                 marginTop: '3rem',
-                marginBottom: '8rem'
+                marginBottom: '3rem'
             }}>
                 <h3 style={{ fontWeight: 'bold' }}>
                     Conozca a nuestro equipo de especialistas experimentados
@@ -24,7 +24,7 @@ export const Nosotros = () => {
                 md={2}
                 className="g-4"
                 style={{
-                    gap: '10rem 15rem',
+                    gap: '1rem 10rem',
                     justifyContent: 'center'
                 }}>
                 <CardsGridNosot dataNos={dataNosotros} />
