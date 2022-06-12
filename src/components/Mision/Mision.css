@@ -1,0 +1,26 @@
+.mision-container{
+    background-color:#45833A ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.row-mision{
+    width: 90%;
+    margin:auto;
+    justify-content: space-around;
+}
+.text-mision{
+    color: white;
+    font-family: 'roboto';
+    font-size: 16px;
+    line-height: 24px;
+}
+.tittle-mision{
+    color: white;
+    font-family: 'roboto';
+    font-size: 24px;
+
+}

@@ -1,0 +1,25 @@
+.container-detail-practicas{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.text-practicas{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.tittle-practicas{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
