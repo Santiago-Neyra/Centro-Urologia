@@ -86,3 +86,11 @@ li::marker{
     }
     
 } */
+.link-navv{
+    color: grey;
+    text-decoration: none;
+}
+.link-navv:hover{
+    color: black;
+    font-weight: bold;
+}

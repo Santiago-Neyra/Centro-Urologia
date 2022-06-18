@@ -27,8 +27,8 @@ export const NavBar = () => {
                             >
                                 <div className='divContentInfoTopBar'>
                                     <ul className='ulInfo'>
-                                        <li><FiMapPin style={{ color: 'green', marginRight: 5 }} /> Ubicacion</li>
-                                        <li><FiMail style={{ color: 'green', marginRight: 5 }} />Contacto</li>
+                                        <li><a className='link-navv' href='/contacto'><FiMapPin style={{ color: 'green', marginRight: 5 }} /> Ubicacion</a></li>
+                                        <li><a className='link-navv' href='/Contacto'><FiMail style={{ color: 'green', marginRight: 5 }} />Contacto</a></li>
                                         <li><FiPhone style={{ color: 'green', marginRight: 5 }} />1112345678</li>
                                     </ul>
                                 </div>
