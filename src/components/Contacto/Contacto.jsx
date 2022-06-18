@@ -17,7 +17,7 @@ export const Contacto = () => {
                         </div>
                         <div className="container-form">
 
-                            <form className="formulario" action="https://formsubmit.co/santineyra97@gmail.com" method="POST">
+                            <form className="formulario" action="https://formsubmit.co/urodit@hotmaill.com" method="POST">
                                 <div className="input-group mb-3">
                                     <span
                                         className="input-group-text d-sm-flex d-none" id="basic-addon1">Nombre y Apellido</span>
