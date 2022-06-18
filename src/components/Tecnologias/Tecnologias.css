@@ -5,6 +5,7 @@
 }
 .t-beneficios{
     text-align: left;
+    margin-bottom: 1rem;
 }
 .img-item{
     width: 20px;
@@ -25,4 +26,30 @@
 .span-item{
     display: flex;
     align-items: baseline;
+}
+.itemVent {
+    margin-bottom: 1rem;
+}
+.container-ventajas {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.containerQue {
+    margin-top: 2rem;
+}
+.tit-queson {
+    width: 50%;
+}
+.text-queSon {
+    text-align: left;
+    width: 80%;
+}
+
+.ctn-imgLitotri {
+    width: 90%;
+    margin:  0 auto;
+}
+.ctn-imgLitotri img {
+    width: 100%;
+    height: auto;
 }

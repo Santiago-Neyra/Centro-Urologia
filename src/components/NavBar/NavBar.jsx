@@ -3,13 +3,12 @@ import './NavBar.css'
 import logo from '../../assets/cduLogo.png'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi';
 import { BiSearch } from 'react-icons/bi';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Container, Form, Nav, Navbar } from 'react-bootstrap';
 
 
 
 export const NavBar = () => {
-    const { pathname } = useLocation()
     return (
         <>
 
@@ -63,10 +62,10 @@ export const NavBar = () => {
                     style={{
                         display: 'flex',
                         alignItems: 'center',
-                        backgroundColor: pathname === '/' ? 'gray' : 'black',
+                        backgroundColor: 'gray',
                         height: 'fit-content',
                         minHeight: '50px',
-                        transition:'200ms ease-in-out'
+                        transition: '200ms ease-in-out'
                     }}>
                     <ul style={{ flexWrap: 'wrap' }}>
                         <li><Link to="/" >Inicio</Link></li>

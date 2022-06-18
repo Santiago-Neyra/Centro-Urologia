@@ -32,7 +32,21 @@ text-align: left;
     background-color: #a2cb9d;
     color: #45833A;
 }
-
+.ulPract {
+    text-align: left;
+    list-style-type: square;
+    list-style-image: url(../../../assets/tecnologias/iconCheck.svg);
+}
+.ulPract li {
+    color: black;
+}
+.ctn-imgUrofluj {
+    width: 90%;
+}
+.ctn-imgUrofluj img {
+    width: 100%;
+    height: auto;
+}
 @media screen and (max-width: 992px) {
     .col-3 {
         display: none;
