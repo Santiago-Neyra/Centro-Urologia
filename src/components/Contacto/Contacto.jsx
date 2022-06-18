@@ -17,33 +17,33 @@ export const Contacto = () => {
                         </div>
                         <div className="container-form">
 
-                            <form className="formulario">
+                            <form className="formulario" action="https://formsubmit.co/santineyra97@gmail.com" method="POST">
                                 <div className="input-group mb-3">
                                     <span
                                         className="input-group-text d-sm-flex d-none" id="basic-addon1">Nombre y Apellido</span>
                                     <input
-                                        type="text" className="form-control input-form" placeholder="Nombre y Apellido" aria-label="Username" aria-describedby="basic-addon1" />
+                                        type="text" className="form-control input-form" placeholder="Nombre y Apellido" aria-label="Username" aria-describedby="basic-addon1" name="Nombre del Emisor" />
                                 </div>
                                 <div className="input-group mb-3">
                                     <span
                                         className="input-group-text d-sm-flex d-none" id="basic-addon1">Correo electrónico</span>
                                     <input
-                                        type="text" className="form-control input-form" placeholder="Correo electrónico" aria-label="Username" aria-describedby="basic-addon1" />
+                                        type="email" name="Email" className="form-control input-form" placeholder="Correo electrónico" aria-label="Username" aria-describedby="basic-addon1" />
                                 </div>
                                 <div className="input-group mb-3">
                                     <span
                                         className="input-group-text d-sm-flex d-none" id="basic-addon1">Teléfono de contacto</span>
                                     <input
 
-                                        type="text" className="form-control input-form" placeholder="Teléfono de contacto" aria-label="Username" aria-describedby="basic-addon1" />
+                                        type="text" name="Teléfono" className="form-control input-form" placeholder="Teléfono de contacto" aria-label="Username" aria-describedby="basic-addon1" />
                                 </div>
                                 <div className="input-group">
                                     <span className="input-group-text d-sm-flex d-none">Consulta</span>
                                     <textarea
                                         className="form-control input-form" placeholder="Consulta"
-                                        aria-label="With textarea"></textarea>
+                                        aria-label="With textarea" name="Mensaje"></textarea>
                                 </div>
-                                <button className="boton-consulta">Enviar consulta</button>
+                                <button className="boton-consulta" type="submit">Enviar consulta</button>
                             </form>
                         </div>
                     </div>
