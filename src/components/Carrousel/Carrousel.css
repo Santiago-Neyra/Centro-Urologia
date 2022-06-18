@@ -1,12 +1,14 @@
 .carousel-control-prev-icon {
-    background-image: url("https://cdn-icons.flaticon.com/png/512/2989/premium/2989985.png?token=exp=1654464298~hmac=b5ad77a7fb8bca4601934cc57ce4138d");
+    background-image: url(../../assets/carousel/prevIcon.png);
     background-color: aliceblue;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
+
+
 .carousel-control-next-icon {
-    background-image: url('https://cdn-icons.flaticon.com/png/512/2989/premium/2989988.png?token=exp=1654464475~hmac=494dedf0a46616e44818d014e857d542');
+    background-image: url(../../assets/carousel/nextIcon.png);
     background-color: aliceblue;
     border-radius: 50%;
     width: 40px;
@@ -20,7 +22,27 @@
     opacity: 1 !important;
     margin: 0 .4rem !important;
 }
+
 .carousel-indicators .active {
     background-color: #45833a;
     opacity: 1;
+}
+
+@media  (max-width: 768px ) and (min-width: 320px) {
+    .titCarousel {
+        font-size: 1.5rem !important;
+    }
+    .infoCarousel {
+        font-size: 12px !important;
+    }
+    .carousel-indicators button {
+
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .btn {
+        width: 80px !important;
+        font-size: 12px !important;
+        padding: 2px !important;
+    }
 }

@@ -20,22 +20,26 @@ export const dataBanner = [
     {
         img: banner1,
         title: 'Bienvenidos',
-        info: 'Urologia de Diagnostico y Tratamiento'
+        info: 'Urologia de Diagnostico y Tratamiento',
+        redirect:'nosotros'
     },
     {
         img: banner2,
         title: 'Profesionales',
-        info: 'Trabajamos con profesionales experimentados'
+        info: 'Trabajamos con profesionales experimentados',
+        redirect:'nosotros'
     },
     {
         img: banner3,
         title: 'Nuestras practicas',
-        info: 'Trabajamos'
+        info: 'Trabajamos',
+        redirect:'practicas'
     },
     {
         img: banner4,
         title: 'Litotricia Extracorpórea',
-        info: 'Urologia de Diagnostico y Tratamiento'
+        info: 'Urologia de Diagnostico y Tratamiento',
+        redirect:'tecnologias'
     }
 ]
 

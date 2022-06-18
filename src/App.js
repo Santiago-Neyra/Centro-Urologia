@@ -17,12 +17,12 @@ function App() {
       <BrowserRouter>
         <NavBar></NavBar>
         <Routes>
-          <Route path='/' element={<Carrousel data={dataBanner} />}></Route>
-          <Route path="/nosotros" element={<Nosotros />}></Route>
-          <Route path="/practicas" element={<Practicas />}></Route>
-          <Route path="/practicas/:namePractica" element={<DetailPracticas data={dataPracticas}/>}></Route>
-          <Route path="/contacto" element={<Contacto />}></Route>
-          <Route path="/tecnologias" element={<Tecnologias items={itemsTecnologys} />}></Route>
+          <Route path='/' element={<Carrousel data={dataBanner} />}/>
+          <Route path="/nosotros" element={<Nosotros />}/>
+          <Route path="/practicas" element={<Practicas />}/>
+          <Route path="/practicas/:namePractica" element={<DetailPracticas data={dataPracticas}/>}/>
+          <Route path="/contacto" element={<Contacto />}/>
+          <Route path="/tecnologias" element={<Tecnologias items={itemsTecnologys} />}/>
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -29,7 +29,6 @@ export const Nosotros = () => {
                 }}>
                 <CardsGridNosot dataNos={dataNosotros} />
             </Row>
-
         </>
     )
 };

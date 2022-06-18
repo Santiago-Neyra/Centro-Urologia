@@ -18,7 +18,6 @@ export const Practicas = () => {
                     gap: '1rem 10rem',
                     justifyContent: 'center'
                 }}>
-
                 <CardsPractic data={dataPracticas} />
             </Row>
         </>

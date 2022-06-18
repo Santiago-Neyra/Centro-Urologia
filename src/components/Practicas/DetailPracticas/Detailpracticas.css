@@ -23,3 +23,24 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 }
+.cardsAside {
+    background-color: #b4d9b0;
+    color: #45833A;
+    font-weight: bold;
+}
+.cardsAside:hover {
+    background-color: #a2cb9d;
+    color: #45833A;
+}
+
+@media screen and (max-width: 992px) {
+    .col-3 {
+        display: none;
+    }
+    .col-8 {
+        width: 90%;
+    }
+    .container-detail-practicas {
+        width: 100%;
+    }
+}

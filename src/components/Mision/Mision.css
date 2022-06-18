@@ -24,3 +24,31 @@
     font-size: 24px;
 
 }
+
+.imgMisionVision {
+    filter: invert(89%) sepia(100%) saturate(6%) hue-rotate(104deg) brightness(103%) contrast(102%);
+    margin-bottom: 2rem;
+}
+.tittle-mision {
+    margin-bottom: 2rem;
+}
+.text-mision {
+    text-align: center;
+}
+.col-lg-3 {
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .row-mision {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-lg-3 {
+        width: 85%;
+        border-bottom: 2px solid #fff;
+        margin-bottom: 2rem;
+    }
+}

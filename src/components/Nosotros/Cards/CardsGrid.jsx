@@ -1,5 +1,4 @@
-
-import { Button, Card, Col, Row } from "react-bootstrap"
+import { Card, Col } from "react-bootstrap"
 
 
 export const CardsGridNosot = ({ dataNos }) => {
@@ -22,13 +21,6 @@ export const CardsGridNosot = ({ dataNos }) => {
                             <Card.Text>
                                 {info.info}
                             </Card.Text>
-                            {/* <Button style={{
-                                padding: '.7rem 1rem',
-                                fontSize: '1.2rem',
-                                backgroundColor: '#45833a',
-                                border: 'none',
-                                width: '180px'
-                            }}>Leer más</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
