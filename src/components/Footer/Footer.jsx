@@ -7,8 +7,8 @@ import { BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 export const Footer = () => {
     return (
         <div className="contenedor-footer">
-            <div className="row row-1-footer mx-auto">
-                <div className="col-lg-3 justify-content-center align-items-center">
+            <div className="row row-1-footer">
+                <div className="col-lg-3 justify-content-center align-items-center m-auto">
                     <img
                         className="icon-footer"
                         src="https://i.postimg.cc/GhRrq0sD/a0831456-7d61-4379-b9b5-d6bb43160054-1.png"
@@ -21,7 +21,7 @@ export const Footer = () => {
                     <Link to="/Tecnologias">Tecnologías</Link>
                     <Link to="/Contacto">Contacto</Link>
                 </div>
-                <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                <div className="col-lg-2 d-flex justify-content-center align-items-center m-auto">
                     <a href="# ">
                         <BsInstagram className="icons" style={{ color: "black" }} /></a>
                     <a href="https://www.facebook.com/Centro-de-Urología-CDU-478609279004909" rel="noreferrer" target="_blank">
